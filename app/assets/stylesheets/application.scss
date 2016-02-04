@@ -1,10 +1,14 @@
 @import "materialize";
 
-#login-page{
+#login-page,{
   position: fixed;
   top: 10%;
   left: 45%;
   margin-top: -50px;
   margin-left: -100px;
   width: 450px;
+}
+
+.new_session{
+	width: 450px;
 }

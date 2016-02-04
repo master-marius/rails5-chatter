@@ -1,6 +1,7 @@
-<p>Signed in as @<%= cookies.signed[:username] %>.</p>
 
-<div id='messages'></div>
-<br/><br/>
-
-<%= text_field_tag :body, '', id: 'chat-speak' %>
+<div class="container">
+	<p>Signed in as <%= cookies.signed[:username] %>. <span class="right-align">Online : 1%></span></p>
+	<div id='messages'></div>
+	<br/>
+	<%= text_field_tag :body, '', id: 'chat-speak' %>
+</div>
