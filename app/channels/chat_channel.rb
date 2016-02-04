@@ -10,7 +10,7 @@ class ChatChannel < ApplicationCable::Channel
   end
 
   def speak(data)
-  	ApplicationCable.server.broadcast('messages', message: render_message(data['message']))
+  	ActionCable.server.broadcast('messages', message: render_message(data['message']))
   end
 
   private

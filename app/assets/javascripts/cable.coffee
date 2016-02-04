@@ -8,4 +8,4 @@
 //= require_tree ./channels
 #
 @App ||= {}
-App.cable = ActionCable.createConsumer('ws://192.168.3.4:28080')
+App.cable = ActionCable.createConsumer()
