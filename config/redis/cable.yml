@@ -1,0 +1,8 @@
+local: &local  
+  :url: redis://192.168.3.14:6379
+  :host: 192.168.3.14
+  :port: 6379
+  :timeout: 1
+  :inline: true
+development: *local  
+test: *local  
